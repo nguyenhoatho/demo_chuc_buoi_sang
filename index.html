@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#667eea">
+    <title>Chúc Ngày Mới Tốt Đẹp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="background"></div>
+        
+        <div class="content">
+            <div class="greeting-card">
+                <div class="avatar-container">
+                    <div class="avatar-frame">
+                        <img id="avatarImage" src="folder_img/378122343_1788273374956012_8396977520956745408_n.jpg" alt="Avatar" class="avatar-image">
+                    </div>
+                </div>
+                
+                <h1 class="main-title">Chúc Ngày Mới Tốt Đẹp! ☀️</h1>
+                
+                <div class="quote-container">
+                    <p class="quote-icon">"</p>
+                    <p id="randomWish" class="random-wish">Hãy chờ một chút...</p>
+                    <p class="quote-icon">"</p>
+                </div>
+                
+                <button onclick="getNewWish()" class="btn-new-wish">
+                    <span>Lấy câu chúc khác</span>
+                    <span class="btn-icon">✨</span>
+                </button>
+                
+                <div class="time-display">
+                    <p id="currentTime" class="current-time"></p>
+                    <p id="currentDate" class="current-date"></p>
+                </div>
+                
+                <div class="stars">
+                    <span>⭐</span>
+                    <span>✨</span>
+                    <span>⭐</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
